@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise;
 // This file empties the Books collection and inserts the books below
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/nytreact",
+  process.env.MONGODB_URI || "mongodb://heroku_lxg78nhz:heroku_lxg78nhz@ds111535.mlab.com:11535/heroku_lxg77nhz",
   {
     useMongoClient: true
   }
